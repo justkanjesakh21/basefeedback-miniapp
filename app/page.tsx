@@ -1,3 +1,5 @@
-﻿export default function Page() {
-  return <div>Base Mini App Ready</div>;
+﻿import { FeedbackHome } from "@/components/feedback-home";
+
+export default function Page() {
+  return <FeedbackHome />;
 }

@@ -1,4 +1,6 @@
 ﻿import "./globals.css";
+import { Providers } from "@/components/providers";
+import { BottomNav } from "@/components/bottom-nav";
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
@@ -10,7 +12,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta name="theme-color" content="#000000" />
       </head>
-      <body>{children}</body>
+      <body>
+        <Providers>
+          <main className="app-shell">{children}</main>
+          <BottomNav />
+        </Providers>
+      </body>
     </html>
   );
 }
