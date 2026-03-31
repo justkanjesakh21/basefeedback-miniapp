@@ -1,6 +1,3 @@
-import { MePanel } from "@/components/me-panel";
-
-export default function MePage() {
-  return <MePanel />;
+﻿export default function MePage() {
+  return <div>Base Mini App Ready</div>;
 }
-
