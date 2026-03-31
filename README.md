@@ -1,4 +1,4 @@
-# BaseFeedback
+﻿# BaseFeedback
 
 BaseFeedback is a mobile-first Base Mini App for sending short feedback notes to the `BaseFeedback` smart contract on Base Mainnet.
 
@@ -22,8 +22,8 @@ BaseFeedback is a mobile-first Base Mini App for sending short feedback notes to
 
 - `base:app_id`: `69cb26d06b6a2cd82c727edb`
 - `talentapp:project_verification`: `d0347e902b44255ff25580af81b7f843f1780cabd9fba4bad76cf77fe7701dd50bf3911f80c7e2b63e852ee65145a67ecbdd2539c7278d6219a21d01d17af8d7`
-- Builder code: `bc_rvo7lsj1`
-- Encoded attribution string: `0x62635f72766f376c736a310b0080218021802180218021802180218021`
+- Builder code: `bc_b8nos5a8`
+- Encoded attribution string: `0x62635f62386e6f733561380b0080218021802180218021802180218021`
 
 ## Local Run
 
@@ -38,4 +38,5 @@ npm run dev
 npm run build
 vercel deploy --prod
 ```
+
 

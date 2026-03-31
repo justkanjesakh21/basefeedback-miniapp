@@ -1,4 +1,4 @@
-"use client";
+﻿"use client";
 
 import * as OxHex from "ox/Hex";
 import { QueryClient } from "@tanstack/react-query";
@@ -7,8 +7,8 @@ import { base } from "wagmi/chains";
 import { coinbaseWallet, injected } from "wagmi/connectors";
 import type { Hex } from "viem";
 
-const BUILDER_CODE = "bc_rvo7lsj1";
-const ENCODED_STRING = "0x62635f72766f376c736a310b0080218021802180218021802180218021";
+const BUILDER_CODE = "bc_b8nos5a8";
+const ENCODED_STRING = "0x62635f62386e6f733561380b0080218021802180218021802180218021";
 
 function parseDataSuffix(value: string): Hex {
   OxHex.assert(value, { strict: true });
@@ -38,5 +38,6 @@ export const appAttribution = {
 } as const;
 
 export const queryClient = new QueryClient();
+
 
 
