@@ -1,6 +1,3 @@
-import { FeedbackHome } from "@/components/feedback-home";
-
-export default function HomePage() {
-  return <FeedbackHome />;
+export default function Page() {
+  return <div>Base Mini App Ready</div>;
 }
-
